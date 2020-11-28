@@ -1,37 +1,92 @@
-## Welcome to GitHub Pages
-
-You can use the [editor on GitHub](https://github.com/AndriiAvramenk/four/edit/gh-pages/index.md) to maintain and preview the content for your website in Markdown files.
-
-Whenever you commit to this repository, GitHub Pages will run [Jekyll](https://jekyllrb.com/) to rebuild the pages in your site, from the content in your Markdown files.
-
-### Markdown
-
-Markdown is a lightweight and easy-to-use syntax for styling your writing. It includes conventions for
-
-```markdown
-Syntax highlighted code block
-
-# Header 1
-## Header 2
-### Header 3
-
-- Bulleted
-- List
-
-1. Numbered
-2. List
-
-**Bold** and _Italic_ and `Code` text
-
-[Link](url) and ![Image](src)
-```
-
-For more details see [GitHub Flavored Markdown](https://guides.github.com/features/mastering-markdown/).
-
-### Jekyll Themes
-
-Your Pages site will use the layout and styles from the Jekyll theme you have selected in your [repository settings](https://github.com/AndriiAvramenk/four/settings). The name of this theme is saved in the Jekyll `_config.yml` configuration file.
-
-### Support or Contact
-
-Having trouble with Pages? Check out our [documentation](https://docs.github.com/categories/github-pages-basics/) or [contact support](https://github.com/contact) and we’ll help you sort it out.
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="Untitled-1.css">
+    <link rel="preconnect" href="https://fonts.gstatic.com">
+    <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@500&display=swap" rel="stylesheet">
+    <link rel="preconnect" href="https://fonts.gstatic.com">
+    <link href="https://fonts.googleapis.com/css2?family=Raleway:wght@700&family=Roboto:wght@500&display=swap" rel="stylesheet">
+    <link rel="preconnect" href="https://fonts.gstatic.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com">
+    <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@300&display=swap" rel="stylesheet">
+</head>
+<body> 
+  <header class="container">
+    <p class="logo"><span class="first">Web</span>Studio</p>
+    <ul class="nav">
+      <li class="nav-list">Студия</li>
+      <li class="nav-list">Портфолио</li>
+      <li class="nav-list">Контакты</li>
+    </ul>
+    <ul class="about">
+      <li class="about-list"><a href="mailto:info@devstudio.com" class="email">info@devstudio.com</a></li>
+      <li class="about-list"><a href="tel:+380961111111" class="tel">+38 096 111 11 11</a></li>
+    </ul>
+  </header>
+  <main>
+      <div class="ad">
+          <p class="ad-text">ЭФФЕКТИВНЫЕ РЕШЕНИЯ ДЛЯ ВАШЕГО БИЗНЕСА</p>
+          <button class="ad-btn">Заказать услугу</button>
+      </div>
+      <ul class="info">
+          <li class="info-item">
+              <h3 class="title">ВНИМАНИЕ К ДЕТАЛЯМ</h3>
+              <p class="text">Идейные соображения, а также начало повседневной работы по формированию позиции.</p>
+          </li>
+          <li class="info-item">
+              <h3 class="title">ПУНКТУАЛЬНОСТЬ</h3> 
+              <p class="text">Задача организации, в особенности же рамки и место обучения кадров влечет за собой.</p>
+          </li>
+          <li class="info-item">
+              <h3 class="title">ПЛАНИРОВАНИЕ</h3>
+              <p class="text">Равным образом консультация с широким активом в значительной степени обуславливает. </p>
+          </li>
+          <li class="info-item">
+              <h3 class="title">СОВРЕМЕННЫЕ ТЕХНОЛОГИИ</h3>
+              <p class="text">Значимость этих проблем настолько очевидна, что реализация плановых заданий.</p>
+          </li>
+      </ul>
+      <h3 class="titles">Чем мы занимаемся</h3>
+      <div class="gallery">
+          <img src="img.png" alt="photo1.png" class="image">
+          <img src="img (1).png" alt="photo2.png" class="image">
+          <img src="img (2).png" alt="photo3.png" class="image">
+      </div>
+      <div class="command">
+          <h3 class="titless">Наша команда</h3>
+          <div class='people'>
+              <div class="person">
+                  <img src="img.jpg" alt="Игорь Демьяненко" class="face">
+                  <h3 class="name">Игорь Демьяненко</h3>
+                  <p class="profesion">Produck Designer</p>
+                </div>
+              <div class="person">
+                  <img src="img (1).jpg" alt="Ольга Репина" class="face">
+                  <h3 class="name">Ольга Репина</h3
+                    ><p class="profesion">Frontend Developer</p>
+                </div>
+              <div class="person">
+                  <img src="img (2).jpg" alt="Николай Тарасов" class="face">
+                  <h3 class="name">Николай Тарасов</h3>
+                  <p class="profesion">Marketing</p>
+                </div>
+              <div class="person">
+                  <img src="img (3).jpg" alt="Михаил Ермаков" class="face">
+                  <h3 class="name">Михаил Ермаков</h3>
+                  <p class="profesion">UI Designer</p>
+              </div>
+          </div>
+          
+      </div>
+  </main>
+  <footer>
+    <p class="logo1"><span class="first1">Web</span>Studio</p>
+    <p class="addres">г. Киев, пр-т Леси Украинки, 26</p>
+    <a href="mailto:info@devstudio.com" class="email1">info@devstudio.com</a>
+    <a href="tel:+380961111111" class="tel1">+38 096 111 11 11</a>
+  </footer>
+</body>
+</html>
